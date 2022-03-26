@@ -39,9 +39,9 @@ In the case of a merge conflict (seen in the PR), it's time to rebase. DO NOT ME
 * check editor for conflicts and choose which version, or a combination of both is correct
 * add changes: `git add .`
 * continue to next step: `git rebase --continue`
-* repeat last two steps until rebase is done, commit no necessary here
-* If more work stash: `git stash pop`, fix conflicts like before, add them and commit
-* push up reabased branch: `git push --force` (Force used here because we reordered history on purpose)
+* repeat last two steps until rebase is done, commit not necessary here
+* if work stashed(step 1): `git stash pop`, fix conflicts like before, add them and commit
+* push up rebased branch: `git push --force` (`--force` flag used here because we reordered history on purpose)
 
 # Notes and ideas
 
