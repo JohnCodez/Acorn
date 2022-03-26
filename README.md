@@ -2,8 +2,8 @@
 `npm i`
 `npm run dev`
 
-## Github
-# Contribute
+# Github
+## Contribute
 
 1. Make a new branch, where `<BRANCHNAME>` is: `feature/`, `bugfix/` or `chore/` and then what its about
 `git checkout -b <BRANCHNAME>`
@@ -21,7 +21,7 @@ example: `git checkout -b feature/add-home-page`
 
 5. Create a Pull Request (PR) by coming to this repo in github, finding your branch, and pressing the PR button
 
-# Conflicts
+## Conflicts
 In the case of a merge conflict (seen in the PR), it's time to rebase. DO NOT MERGE
 
 1. If local changes haven't been saved stash them
