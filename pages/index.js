@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import BackgroundStyles from 'designs/HomeBackground/HomeBackground.module.css'
 import styles from 'styles/Home.module.css'
+import classStyles from 'styles/classes.module.css'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       
       <main className={styles.main} style={{'--textTheme': 'white'}}>
         <div className={BackgroundStyles.homeBackground}>
-          <div className={styles.container}>
+          <div className={`${styles.container} ${classStyles.disableSelect}`}>
             <h1 className={styles.title}>Welcome to Acorn</h1>
             <div className={styles.buttons}>
               <div className={styles.buttonExplore}>EXPLORE</div>
