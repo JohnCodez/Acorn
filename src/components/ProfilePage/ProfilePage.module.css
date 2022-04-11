@@ -1,0 +1,7 @@
+@value colors: 'styles/colors.module.css';
+@value defaultColor,darkColor from colors;
+
+.title {
+    font-weight: bold;
+    color: darkColor;
+}
