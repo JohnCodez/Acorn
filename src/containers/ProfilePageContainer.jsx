@@ -7,6 +7,7 @@ const ProfilePageContainer = ({id}) => {
 
 	return (
 		<ProfilePage 
+			data={data.users[0]}
 			firstName={firstName} 
 			lastName={lastName}
 		/>

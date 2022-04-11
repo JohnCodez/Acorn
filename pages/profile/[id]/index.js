@@ -8,6 +8,7 @@ const profile = ({profileId}) => {
 }
 
 export const getServerSideProps = (context) => {
+  console.log(context.params)
   return {props: {
     profileId: context.params.id
   }}
