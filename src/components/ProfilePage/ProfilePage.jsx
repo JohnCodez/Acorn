@@ -1,5 +1,6 @@
 import React from 'react'
 import profilePageStyles from './ProfilePage.module.css'
+import Modal from 'components/Modal'
 
 const ProfilePage = ({firstName, lastName, data}) => {
 	const InfoDivs = () => (
@@ -10,6 +11,7 @@ const ProfilePage = ({firstName, lastName, data}) => {
 	<>
 		<div className={profilePageStyles.title}>ProfilePage: My name is {firstName+" "+lastName}</div>
 		<InfoDivs/>
+		<Modal> </Modal>
 	</>
 	)
 }
