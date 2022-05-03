@@ -1,5 +1,5 @@
 @value colors: "styles/colors.module.css";
-@value lightPurple, superLightPurple, darkPurple, defaultPurple from colors;
+@value lightColor, superLightColor, darkColor, defaultColor from colors;
 
 .main {
   width: 100vw;
@@ -37,19 +37,19 @@
   width: 200px;
   text-align: center;
   cursor: pointer;
-  box-shadow: 6px 6px 1px darkPurple;
+  box-shadow: 6px 6px 1px darkColor;
 
 }
 
 .buttons > *:hover {
-  box-shadow: 3px 3px 1px defaultPurple;
+  box-shadow: 3px 3px 1px defaultColor;
   transition: 500ms ease-in;
 }
 
 .buttonExplore{
-  background-color: superLightPurple;
+  background-color: superLightColor;
 }
 
 .buttonLogin{
-  background-color: lightPurple;
+  background-color: lightColor;
 }
