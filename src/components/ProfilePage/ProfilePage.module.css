@@ -4,4 +4,27 @@
 .title {
     font-weight: bold;
     color: darkColor;
+    margin: 0;
+}
+
+.window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #F0D9CF; */
+}
+
+.imageCropper {
+    width: 10vw;
+    height: 10vw;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+  
+.img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
 }
