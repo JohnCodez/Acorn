@@ -1,7 +1,7 @@
-@value defaultPurple: #4B00C5;
-@value darkPurple: #23005C;
-@value lightPurple: #6100FF;
-@value superLightPurple: #b181ff;
+@value defaultColor: '#4B00C5';
+@value darkColor: #23005C;
+@value lightColor: #6100FF;
+@value superLightColor: #b181ff;
 
 @value themeLight: black;
 @value themeDark: white;
