@@ -7,7 +7,7 @@ const urlBackground = 'https://s3-alpha-sig.figma.com/img/166e/eac4/33b27c5eb255
 
 const ProfilePage = ({firstName, lastName, data}) => {
 	const InfoDivs = () => (
-		Object.keys(data).map(e => <div className={profilePageStyles.title}>{e+': '} {typeof data[e] === 'object'? JSON.stringify(data[e]) : data[e]}</div>)
+		Object.keys(data).map((e, i) => <div key={i+'infodiv'} className={profilePageStyles.title}>{e+': '} {typeof data[e] === 'object'? JSON.stringify(data[e]) : data[e]}</div>)
 	)
 
 	const Banner = () => 
