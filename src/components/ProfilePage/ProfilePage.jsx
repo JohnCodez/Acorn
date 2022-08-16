@@ -13,7 +13,7 @@ const ProfilePage = ({firstName, lastName, data}) => {
 	const Banner = () => 
 	<div style={{backgroundImage: `url(${urlBackground})`, backgroundSize: 'cover', alignItems: 'center', justifyContent: 'center', display: 'flex'}}>
 		<div className={profilePageStyles.imageCropper}>
-			<img src={urlProfile} style={{maxWidth: '10vw', maxHeight: '20vw', width: 'auto',borderRadius: '20vw'}}/>
+			{/* <img src={urlProfile} style={{maxWidth: '10vw', maxHeight: '20vw', width: 'auto',borderRadius: '20vw'}}/> */}
 		</div>
 	</div>
 
